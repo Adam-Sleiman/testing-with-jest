@@ -1,0 +1,19 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "src",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adam-Sleiman/testing-with-jest.git#main"
+  },
+  "author": "Adam Sleiman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adam-Sleiman/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/Adam-Sleiman/testing-with-jest/tree/main#readme",
+  "description": ""
+}
