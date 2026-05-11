@@ -17,10 +17,13 @@
   "homepage": "https://github.com/Adam-Sleiman/testing-with-jest/tree/main#readme",
   "description": "",
   "dependencies": {
+    "geckodriver": "^6.1.0",
+    "selenium-webdriver": "^4.43.0",
     "underscore": "^1.13.8"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^14.0.0",
+    "jest": "^29.7.0",
     "webpack": "^5.106.2",
     "webpack-cli": "^7.0.2"
   }
