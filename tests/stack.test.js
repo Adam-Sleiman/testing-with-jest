@@ -1,5 +1,13 @@
 const stack = require('../src/stack');
 
+// Rensa stacken innan varje test
+beforeEach(() => {
+    // Töm stacken genom att poppa alla element
+    while (stack.peek() !== undefined) {
+        stack.pop();
+    }
+});
+
 test('peek on empty stack returns undefined', () => {
     expect(stack.peek()).toBeUndefined();
 });
@@ -32,6 +40,6 @@ test('pop should return and remove the top element', () => {
 test('pop on an empty stack should return undefined', () => {
     // Tom stack från tidigare test
     const popped = stack.pop();
-    // Detta test kommer att misslyckas pga bugg - vi förväntar undefined men får något annat
+    // Nu förväntar vi undefined vilket är korrekt
     expect(popped).toBeUndefined();
 });

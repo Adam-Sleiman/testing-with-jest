@@ -58,8 +58,7 @@ describe('Peek button test', () => {
         await peekBtn.click();
         
         // Kontrollera att displayen visar det översta elementet (Second)
-        // Med denna bugg förväntar vi "Third" vilket inte är rätt
         let display = await driver.findElement(By.id('top_of_stack')).getText();
-        expect(display).toBe("Third");
+        expect(display).toBe("Second");
     });
 });
